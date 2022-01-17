@@ -1,10 +1,10 @@
 import BaseLayout from '@components/BaseLayout';
 
-export default function Home() {
+export default function Podcast() {
   return (
     <BaseLayout>
       <section>
-        <h1>Home</h1>
+        <h1>Podcast</h1>
       </section>
     </BaseLayout>
   );

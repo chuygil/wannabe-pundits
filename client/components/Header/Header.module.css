@@ -1,0 +1,51 @@
+.header {
+  height: 64px;
+  border-bottom: 1px solid var(--header-border);
+}
+
+.header > div {
+  max-width: 48rem;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.navLink {
+  font-weight: var(--font-semibold);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.navLink:hover {
+  color: var(--fg-secondary);
+}
+
+.navLinkActive {
+  background-color: var(--header-link-active-bg);
+}
+
+.navLinkActive:hover {
+  color: var(--fg-secondary);
+}
+
+.themeButton {
+  padding: 0.25rem;
+  background: none;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.themeButton:hover {
+  color: var(--fg-secondary);
+}
