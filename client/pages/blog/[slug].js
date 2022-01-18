@@ -7,7 +7,7 @@ import styles from '@styles/Post.module.css';
 
 export default function Post({ post }) {
   return (
-    <BaseLayout>
+    <BaseLayout title={post?.title}>
       <article className={styles.post}>
         <div className={styles.postHeading}>
           <h1>{post?.title}</h1>

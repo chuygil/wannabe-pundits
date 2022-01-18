@@ -6,7 +6,7 @@ import PostList from '@components/PostList';
 
 export default function Blog({ posts }) {
   return (
-    <BaseLayout>
+    <BaseLayout title="Blog">
       <PostList posts={posts} />
     </BaseLayout>
   );

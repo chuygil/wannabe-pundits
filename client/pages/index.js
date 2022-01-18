@@ -3,7 +3,7 @@ import HeroSection from '@components/HeroSection';
 
 export default function Home() {
   return (
-    <BaseLayout>
+    <BaseLayout title="Home">
       <HeroSection />
     </BaseLayout>
   );
