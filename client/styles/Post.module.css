@@ -1,0 +1,11 @@
+.post * {
+  margin: 1rem 0;
+}
+
+.postHeading {
+  padding-bottom: 3rem;
+}
+
+.postDate {
+  color: var(--fg-secondary);
+}

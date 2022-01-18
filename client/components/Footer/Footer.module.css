@@ -1,0 +1,22 @@
+.footer {
+  min-height: 64px;
+  padding: 3rem 0;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: var(--fg-secondary);
+}

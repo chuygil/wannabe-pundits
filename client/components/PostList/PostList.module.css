@@ -1,0 +1,23 @@
+.postList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.postItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.postLink {
+  color: var(--fg-secondary);
+  font-weight: var(--font-semibold);
+}
+
+.postLink:hover {
+  text-decoration: underline;
+}
+
+.postDate {
+  font-size: var(--font-xs);
+}

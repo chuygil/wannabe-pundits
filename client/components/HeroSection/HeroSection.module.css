@@ -1,0 +1,15 @@
+.heading {
+  margin: 1rem 0;
+}
+
+.socialList {
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink:hover {
+  color: var(--fg-secondary);
+}

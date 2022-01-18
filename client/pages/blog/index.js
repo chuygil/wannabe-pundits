@@ -1,11 +1,24 @@
-import BaseLayout from '@components/BaseLayout';
+import groq from 'groq';
 
-export default function Blog() {
+import sanityClient from '@lib/client';
+import BaseLayout from '@components/BaseLayout';
+import PostList from '@components/PostList';
+
+export default function Blog({ posts }) {
   return (
     <BaseLayout>
-      <section>
-        <h1>Blog</h1>
-      </section>
+      <PostList posts={posts} />
     </BaseLayout>
   );
+}
+
+export async function getStaticProps() {
+  const posts = await sanityClient.fetch(groq`
+      *[_type == "post" && publishedAt < now()] | order(publishedAt desc)
+    `);
+  return {
+    props: {
+      posts,
+    },
+  };
 }

@@ -1,10 +1,11 @@
 .header {
   height: 64px;
   border-bottom: 1px solid var(--header-border);
+  margin-bottom: 3rem;
 }
 
 .header > div {
-  max-width: 48rem;
+  max-width: 54rem;
   height: 100%;
   margin: 0 auto;
   padding: 0 1rem;
@@ -38,7 +39,7 @@
 }
 
 .themeButton {
-  padding: 0.25rem;
+  padding: 0.5rem;
   background: none;
   color: inherit;
   border: none;

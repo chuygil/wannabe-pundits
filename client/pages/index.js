@@ -1,11 +1,10 @@
 import BaseLayout from '@components/BaseLayout';
+import HeroSection from '@components/HeroSection';
 
 export default function Home() {
   return (
     <BaseLayout>
-      <section>
-        <h1>Home</h1>
-      </section>
+      <HeroSection />
     </BaseLayout>
   );
 }

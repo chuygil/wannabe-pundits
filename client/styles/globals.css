@@ -35,7 +35,7 @@
 
   /* Light theme colors */
   --bg: hsla(var(--white), 100%);
-  --fg-primary: hsla(var(--gray-30), 100%);
+  --fg-primary: hsla(var(--gray-40), 100%);
   --fg-secondary: hsla(var(--black), 100%);
   --header-border: hsla(var(--gray-90), 100%);
   --header-link-active-bg: hsla(var(--gray-90), 100%);
@@ -94,6 +94,34 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-extrabold);
+  color: var(--fg-secondary);
+}
+
+h1 {
+  font-size: var(--font-xl);
+}
+
+h2 {
+  font-size: var(--font-lg);
+}
+
+h3 {
+  font-size: var(--font-md);
+}
+
+h4,
+h5,
+h6 {
+  font-size: var(--font-sm);
 }
 
 a {
