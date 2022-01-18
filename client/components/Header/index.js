@@ -44,6 +44,7 @@ export default function Header() {
         {hasMounted ? (
           <button
             className={styles.themeButton}
+            aria-label="Theme toggle button"
             type="button"
             onClick={() =>
               setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
