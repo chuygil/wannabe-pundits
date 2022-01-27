@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section>
       <Image
         src="/wannabepundits.png"
-        alt="Wannabe Pundits log"
+        alt="Wannabe Pundits logo"
         width={175}
         height={175}
         priority

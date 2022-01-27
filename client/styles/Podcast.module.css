@@ -1,0 +1,11 @@
+.text {
+  margin: 2rem 0;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

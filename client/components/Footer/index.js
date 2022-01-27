@@ -7,6 +7,21 @@ const SOCIAL = [
     text: 'Instagram',
     href: 'https://instagram.com/wannabepundits1219',
   },
+  {
+    id: 3,
+    text: 'Spotify',
+    href: 'https://open.spotify.com/show/738ARhlH2fyOGKT26X9ukl?si=e364fdedaf2a4244',
+  },
+  {
+    id: 4,
+    text: 'Apple Podcasts',
+    href: 'https://podcasts.apple.com/us/podcast/wannabe-pundits/id1559433275',
+  },
+  {
+    id: 5,
+    text: 'Youtube',
+    href: 'https://www.youtube.com/channel/UCueiUwSd3Y62Gbn5XpR-ikA',
+  },
 ];
 
 export default function Footer() {
